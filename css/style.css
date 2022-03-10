@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+.container-fluid{
+    padding: 20px;
+    background-color: #B53471;
+}
+.container-fluid .container{
+    text-align: center;
+    color: white;
+}
+
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+
+.card{
+    border: 2px solid #6F1E51;
+    width: 100%;
+    padding: 10px 5px;
+    margin: 20px 0px;
+    border-radius:10px;
+}
+.card-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn{
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn-primary{
+    background-color: #0652DD;
+    color: white;
+}
+.btn:active{
+    transform:scale(.9)
+}
+
+table{
+    width: 100%;
+    border: 2px solid #eee;
+    border-collapse: collapse;
+}
+thead tr th{
+    border: 2px solid #eee;
+    padding: 10px !important;
+}
+tr{
+    border: 2px solid #eee;
+    width: 100%;
+    text-align: center;
+}
+tr>td{
+    border: 2px solid #eee;
+    padding: 10px !important;
+
+}
+
+.btn-success{
+    background-color: #006266;
+    color: white;
+}
+.btn-danger{
+    background-color: #EA2027;
+    color: white;
+}
+.modal{
+    position:fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.842);
+    width: 100%;
+    height: 100vh;
+    display:none;
+    justify-content: center;
+    align-items:center;
+}
+.modal-body{
+    background-color: white;
+    width: 50%;
+    padding: 30px;
+    border-radius: 10px;
+}
+.modal-body h3{
+    margin-bottom: 30px ;
+    text-align: center;
+}
+label{
+    margin: 10px 0px;
+}
+.form-group{
+    margin: 20px 0px;
+}
+.form-control{
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color:none;
+    border-bottom: 1px solid #006266;
+    padding: 10px 0px;
+    font-size: 18px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.alerts{
+}
+.alert{
+    position:fixed;
+    top: 10px;
+    right: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+}
+.alert-success{
+    background-color: rgb(31, 192, 31);
+    display:none;
+}
+
+.alert-danger{
+    background-color: rgb(194, 27, 27);
+    display:none;
+}
+@media screen and (max-width:700px) {
+    .table-responsive{
+        overflow-x: scroll;
+    }
+}
